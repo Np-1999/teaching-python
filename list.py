@@ -40,3 +40,10 @@ print(dict_1["a"])
 for key, value in dict_1.items():
     print(f"Key ={key} value = {value}")
 
+
+# reverse indexing
+l1 = [1,2,6,4] 
+print(l1[-1])
+# list comprehension
+l2 = [num for num in l1 if num % 2 == 0]
+
